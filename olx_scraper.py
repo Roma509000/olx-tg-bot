@@ -263,7 +263,6 @@ while True:
 
     print()
     print(f'Updated at: {str(datetime.fromtimestamp(datetime.timestamp(datetime.now()))).split(".")[0]}')
-    print(f"New start ids: {list(set(start_ids) - set(old_start_ids))}")
     print()
 
     time.sleep(r.randint(60, 90))
